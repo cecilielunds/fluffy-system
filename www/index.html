@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<!--
+    The very first application
+-->
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="msapplication-tap-highlight" content="no" />
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width" />
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/index.css" rel="stylesheet" />
+    <title>Hello World</title>
+    <link href="https://fonts.googleapis.com/css?family=Macondo" rel="stylesheet"> 
+</head>
+
+<!--  BEGINS: Page style settings -->
+
+<style>
+    h3, h1, p {
+	font-family: 'Macondo', cursive;
+    }
+    
+    img {
+        width: 40%;
+    }
+    
+    p {
+        font-size: 3.0em;
+        padding-top: 10px;
+        text-align: center;
+    }
+</style> 
+
+<!--  ENDS: Page style settings -->
+<!--  BEGINS: Content for our application -->
+
+<body class="container text-center">
+
+    <h1>FAIRYTALES</h1>
+    <h3>Once upon a time when pigs spoke rhyme</h3>
+  <h3>And monkeys chewed tobacco,</h3>
+  <h3>And hens took snuff to make them tough,</h3>
+  <h3>And ducks went quack, quack, quack, O!</h3>
+    <img src="img/john bauer 1.jpg">
+    <p> WELCOME TO A WORLD OF STORIES</p>
+    
+    <button id="Lettheadventurebegin" type="button" class="btn btn-success">Let the adventure begin</button>
+     
+</body>
+
+<!--  ENDS: Content for our application  -->
+
+
+<!--  BEGINS: Script block  -->
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/index.js"></script>
+<script>
+    $("#Lettheadventurebegin").click(function() {
+        alert("You will now enter a land far far away.");
+    });
+</script>
+<!--  ENDS: Script block  -->
+
+</html>
